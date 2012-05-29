@@ -1,0 +1,20 @@
+1
+7*Sin(45)+Ln(78.59)-(3^4)*(Log(41))
+(((999-989)*(x*x+6)*10)/(x*5))+75-(x*((7-x)*(x*x*x-3))) =125
+
+
+/*
+	float A,B,x,z;
+
+	if (sign(parser(lewy))==sign(df(lewy))) x=lewy; else x=prawy;
+
+	A=df(x);
+	if (zero(A)) return 0;
+	B=parser(x)-A*x;
+	z=-B/A;
+	if ((z<lewy) || (z>prawy)) return 0;
+
+	if (zero(z)) return z;
+
+	if (sign(parser(lewy))!=sign(parser(z))) return newton(lewy,z);
+	else return newton(z,prawy);*/
